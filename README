@@ -2,6 +2,11 @@
 Skeptical PKI
 =====================
 
+   Skeptical PKI contains PKI componets intended for use by small to medium
+   size organizations. Current functions include:
+
+      * TSA - Time Stamping Authority daemon
+      * OCSP - Online Certificate Status Protocol responder daemon
 
 Contents
 --------
