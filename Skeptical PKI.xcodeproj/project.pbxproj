@@ -1,0 +1,177 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A02F50241B027E4200A81A93 /* Skeptical PKI: Git Version */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A02F50251B027E4200A81A93 /* Build configuration list for PBXAggregateTarget "Skeptical PKI: Git Version" */;
+			buildPhases = (
+				A02F50281B027E4700A81A93 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Skeptical PKI: Git Version";
+			productName = "Skeptical PKI: Git Version";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXFileReference section */
+		A02F50091B027B3E00A81A93 /* acinclude.m4 */ = {isa = PBXFileReference; explicitFileType = text.script; path = acinclude.m4; sourceTree = "<group>"; };
+		A02F500A1B027B3E00A81A93 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		A02F500B1B027B3E00A81A93 /* autogen.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = autogen.sh; sourceTree = "<group>"; };
+		A02F500D1B027B3E00A81A93 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A02F50111B027B3E00A81A93 /* git-tar-name.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "git-tar-name.txt"; sourceTree = "<group>"; };
+		A02F50171B027B3E00A81A93 /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		A02F50181B027B3E00A81A93 /* configure.ac */ = {isa = PBXFileReference; explicitFileType = text.script; path = configure.ac; sourceTree = "<group>"; };
+		A02F50191B027B3E00A81A93 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		A02F501B1B027B3E00A81A93 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A02F501F1B027B3E00A81A93 /* Makefile.am */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; indentWidth = 8; path = Makefile.am; sourceTree = "<group>"; tabWidth = 8; usesTabs = 1; };
+		A02F50201B027B3E00A81A93 /* NEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		A02F50211B027B3E00A81A93 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A02F50021B027AEE00A81A93 = {
+			isa = PBXGroup;
+			children = (
+				A02F50091B027B3E00A81A93 /* acinclude.m4 */,
+				A02F500A1B027B3E00A81A93 /* AUTHORS */,
+				A02F500B1B027B3E00A81A93 /* autogen.sh */,
+				A02F50171B027B3E00A81A93 /* ChangeLog */,
+				A02F50181B027B3E00A81A93 /* configure.ac */,
+				A02F50191B027B3E00A81A93 /* COPYING */,
+				A02F501F1B027B3E00A81A93 /* Makefile.am */,
+				A02F50201B027B3E00A81A93 /* NEWS */,
+				A02F50211B027B3E00A81A93 /* README */,
+				A02F500C1B027B3E00A81A93 /* build-aux */,
+				A02F501A1B027B3E00A81A93 /* include */,
+				A02F50221B027B3E00A81A93 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		A02F500C1B027B3E00A81A93 /* build-aux */ = {
+			isa = PBXGroup;
+			children = (
+				A02F500D1B027B3E00A81A93 /* .gitignore */,
+				A02F50111B027B3E00A81A93 /* git-tar-name.txt */,
+			);
+			path = "build-aux";
+			sourceTree = "<group>";
+		};
+		A02F501A1B027B3E00A81A93 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A02F501B1B027B3E00A81A93 /* .gitignore */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A02F50221B027B3E00A81A93 /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		A02F50031B027AEE00A81A93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					A02F50241B027E4200A81A93 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A02F50061B027AEE00A81A93 /* Build configuration list for PBXProject "Skeptical PKI" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A02F50021B027AEE00A81A93;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A02F50241B027E4200A81A93 /* Skeptical PKI: Git Version */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A02F50281B027E4700A81A93 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "contrib/bindletools/build-aux/git-package-version.sh ${PROJECT_DIR} ${PROJECT_DIR}/include";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A02F50071B027AEE00A81A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A02F50081B027AEE00A81A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		A02F50261B027E4200A81A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A02F50271B027E4200A81A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A02F50061B027AEE00A81A93 /* Build configuration list for PBXProject "Skeptical PKI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02F50071B027AEE00A81A93 /* Debug */,
+				A02F50081B027AEE00A81A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02F50251B027E4200A81A93 /* Build configuration list for PBXAggregateTarget "Skeptical PKI: Git Version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02F50261B027E4200A81A93 /* Debug */,
+				A02F50271B027E4200A81A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A02F50031B027AEE00A81A93 /* Project object */;
+}
